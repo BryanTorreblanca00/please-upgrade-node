@@ -19,6 +19,7 @@ module.exports = function pleaseUpgradeNode(pkg, opts) {
     if (opts.hasOwnProperty('exitCode')) {
       process.exit(opts.exitCode)
     } else {
+      console.log("this is an error")
       process.exit(1)
     }
   }
